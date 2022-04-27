@@ -1,11 +1,21 @@
 /* My Styles */
 
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+}
+
 figure{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 img{
     width: 20vh;
+    border-radius: 20px;
 }
